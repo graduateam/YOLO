@@ -8,7 +8,7 @@ def click_event(event, x, y, flags, param):
         cv2.imshow("Image", img)
 
 # 이미지 불러오기
-img = cv2.imread("0306.jpg")
+img = cv2.imread("cctv_sample_image.jpg")
 cv2.imshow("Image", img)
 
 # 마우스 클릭 이벤트 설정
